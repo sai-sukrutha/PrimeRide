@@ -5,12 +5,12 @@ Features
 -----------------
 
 Login 
-
+-
 ->Password Encryption using bcrypt
 
 
 Registration
-
+-
 -> User id, User name, email id is unique
 
 -> Email Authentication with link
@@ -19,7 +19,7 @@ Registration
 
 
 Profile
-
+-
 ->Update Profile Details
 
 ->Update Profile Picture
@@ -32,7 +32,7 @@ Profile
 
 
 Find Ride
-
+-
 ->Search ride for desired Source,Destination,Date
 
 ->Select any ride from offered choices,check the details and Book Ride.
@@ -47,7 +47,7 @@ Find Ride
 
 
 Offer Ride
-
+-
 ->Only Logged In user can offer a ride
 
 ->One user can offer multiple rides
@@ -56,10 +56,10 @@ Offer Ride
 
 
 Accept/Reject Ride:
-
+-
 ->When Driver Accept the ride, no of vacant seats is reduced.
 
-    The corresponding User is notified that driver has accepted the request.
+  The corresponding User is notified that driver has accepted the request.
 
 ->When Driver Reject a ride, User is notified that driver has rejected the request.
 
@@ -67,7 +67,7 @@ Accept/Reject Ride:
 
 
 Delete Ride
-
+-
 ->User can Cancel offered ride.
 
   All riders who has requested that ride will be notified via email about ride cancellation.
